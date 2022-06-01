@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+<!-- Favicon icon-->
+<link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon/favicon.ico">
+
+<!-- Libs CSS -->
+
+
+<link href="../assets/libs/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<link href="../assets/libs/dropzone/dist/dropzone.css"  rel="stylesheet">
+<link href="../assets/libs/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet" />
+<link href="../assets/libs/prismjs/themes/prism-okaidia.css" rel="stylesheet">
+
+
+
+
+
+
+
+
+<!-- Theme CSS -->
+<link rel="stylesheet" href="../assets/css/theme.min.css">
+    <title>Layout | Dash Ui - Bootstrap 5 Admin Dashboard Template</title>
+  </head>
+
+  <body class="bg-light"> 
+    <div id="db-wrapper">
+         <!-- navbar vertical -->
+      <!-- Sidebar -->
+<nav class="navbar-vertical navbar">
+    <div class="nav-scroller">
+        <!-- Brand logo -->
+        <a class="navbar-brand" href="../index.html">
+            Trading Journal
+        </a>
+        <!-- Navbar nav -->
+        <ul class="navbar-nav flex-column" id="sideNavbar">
+            <li class="nav-item">
+                <a class="nav-link has-arrow "
+                    href="../index.html">
+                    <i data-feather="home" class="nav-icon icon-xs me-2"></i>
+                    Statistics
+                </a>
+            </li>
+
+            <!-- Nav item -->
+            <li class="nav-item">
+                <div class="navbar-heading">Data Visualisation</div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link " href="../pages/layout.html">
+                    <i data-feather="sidebar" class="nav-icon icon-xs me-2"></i>
+                    Trades
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="../pages/layout.html">
+                    <i data-feather="sidebar" class="nav-icon icon-xs me-2"></i>
+                    Replay
+                </a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+       <!-- page content -->
+      <div id="page-content">
+        <div class="header @@classList">
+  <!-- navbar -->
+  <nav class="navbar-classic navbar navbar-expand-lg">
+    <a id="nav-toggle" href="#"><i
+        data-feather="menu"
+
+        class="nav-icon me-2 icon-xs"></i></a>
+  </nav>
+</div>
+        <!-- Container fluid -->
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                   <!-- text -->
+                <div class="text-center mb-7">
+                  <h1 class="display-4">Trades</h1>
+                  <form>
+                    <select id="pairSelect">
+                      <option disabled selected>Choose Pair</option>
+                    </select>
+                    <select id="strategySelect">
+                      <option disabled selected>Choose Strategy</option>
+                    </select>
+                  </form>
+                </div>
+                <span class="divider fw-bold" id="tradeListDescription">Choose the Pair and the Strategy</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-lg-12">
+                <!-- Card -->
+                  <div class="card-body text-center">
+                    
+              <table id="tradesTable" class="table table-striped table-sm">
+                <thead>
+                  <tr id="tradesTableHead">
+                    <th>Action</th>
+                    <th>Qty</th>
+                    <th>Market</th>
+                    <th>Time</th>
+                    <th>Symbol</th>
+                    <th>Price</th>
+
+                  </tr>
+                </thead>
+                <tbody id="tradesTableBody">
+                </tbody>
+              </table>
+
+                <!-- End Card -->
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+    <!-- Scripts -->
+    <!-- Libs JS -->
+<script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+<script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/libs/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<script src="../assets/libs/feather-icons/dist/feather.min.js"></script>
+<script src="../assets/libs/prismjs/prism.js"></script>
+<script src="../assets/libs/apexcharts/dist/apexcharts.min.js"></script>
+<script src="../assets/libs/dropzone/dist/min/dropzone.min.js"></script>
+<script src="../assets/libs/prismjs/plugins/toolbar/prism-toolbar.min.js"></script>
+<script src="../assets/libs/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
+
+
+
+
+<!-- Theme JS -->
+<script src="../assets/js/theme.min.js"></script>
+
+
+
+  </body>
+
+</html>
